@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+struct person
+{
+	char name[20];
+	int age;
+	float height;
+}s;
+	
+	main()
+	{
+		scanf("%S,%d,%f",s.name,&s.age,&s.height);
+		{
+		
+			printf("%S,%d,%f");
+		}
+		
+}
